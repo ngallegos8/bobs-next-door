@@ -23,6 +23,10 @@ function NewStoreForm({ onNewStoreFormSubmit }) {
         })
             .then(response => response.json())
             .then(onNewStoreFormSubmit)
+            setImage("")
+            setName("Store Name")
+            setSeason("")
+            setEpisode("")
     }
 
 
